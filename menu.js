@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const b=document.querySelector('.menu'),p=document.querySelector('.mobile-nav');if(!b||!p)return;b.addEventListener('click',()=>{const o=p.classList.toggle('open');b.setAttribute('aria-expanded',String(o));b.textContent=o?'×':'☰'});p.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>p.classList.remove('open')));});
