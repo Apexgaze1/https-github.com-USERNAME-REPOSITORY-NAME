@@ -3,3 +3,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://apex-administrative-business-consulting.netlify.app/sitemap.xml
+
+# IndexNow verification file will be published at site root.
